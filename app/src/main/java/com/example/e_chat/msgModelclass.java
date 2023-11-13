@@ -1,0 +1,40 @@
+package com.example.e_chat;
+
+public class msgModelclass {
+    String message;
+    String Senderid;
+    long timeStamp;
+
+    public msgModelclass() {
+    }
+
+    public msgModelclass(String message, String senderid, long timeStamp) {
+        this.message = message;
+        Senderid = senderid;
+        this.timeStamp = timeStamp;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public String getSenderid() {
+        return Senderid;
+    }
+
+    public void setSenderid(String senderid) {
+        Senderid = senderid;
+    }
+
+    public long getTimeStamp() {
+        return timeStamp;
+    }
+
+    public void setTimeStamp(long timeStamp) {
+        this.timeStamp = timeStamp;
+    }
+}
